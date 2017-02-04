@@ -12,7 +12,7 @@ def lcm(a, b):
     '''
     Find the least common multiple of two numbers.
     '''
-    return (a * b) / gcd(b, a % b)
+    return (a * b) / gcd(a, b)
 
 if __name__ == '__main__':
     if len(sys.argv) == 3:
